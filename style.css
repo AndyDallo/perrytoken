@@ -227,7 +227,7 @@ footer {
         gap: 20px;
         margin-bottom: 5em;
     }
-    #socials > span { 
+    #socials > a { 
         font-weight: 600;
         font-size: 1.5em;
     }
