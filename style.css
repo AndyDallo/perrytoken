@@ -142,9 +142,11 @@ header {
     justify-content: space-around;
     margin-bottom: 25em;
 }
-#socials > span { 
+#socials > a { 
     font-weight: 600;
     font-size: 4em;
+    text-decoration: none;
+    color: white;
 }
 #tokenomics {
     display: flex;
