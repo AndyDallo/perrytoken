@@ -65,8 +65,7 @@ if (window.matchMedia("(max-width: 768px)").matches) {
     const perry_img = document.getElementsByClassName('img_perry')
     const audio = document.getElementById('myAudio')
     yesBtn[0].addEventListener('click', ()=> {
-             undercover.style.opacity = 0
-            undercover.style.visibility = 'none'
+            undercover.style.display = 'none'
             question.style.opacity = 0
             app.style.display = 'flex'
             question.style.visibility = 'none'
